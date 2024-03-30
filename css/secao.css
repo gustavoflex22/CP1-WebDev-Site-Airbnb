@@ -1,0 +1,129 @@
+.container {
+    position: relative;
+    padding: 1rem 5rem;
+}
+
+.lado-esquerdo {
+    position: relative;
+    width: 60%;
+    float: left;
+
+}
+
+.lado-direito {
+    padding: 0rem 5rem;
+    position: absolute;
+    right: 0;
+    width: 40%;
+}
+
+
+.secao2-titulo{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+}
+
+.secao3{
+    padding-bottom: 1.5rem;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+}
+
+.valor{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(128, 128, 128, 0.4);
+    border-radius: 8px;
+    box-shadow: 3px 1px 5px rgb(128, 128, 128, 0.4);
+    padding: 1.2rem;
+}
+
+
+.box p{
+    font-size: 0.75rem ;
+}
+
+#preço{
+    width: 100%;
+}
+
+#preço span{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#box{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+#datas{
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 50%;
+    border-left: 1px solid rgb(128, 128, 128, 0.4);
+    border-top: 1px solid rgb(128, 128, 128, 0.4);
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    border-top-left-radius: 8px 8px;
+}
+
+#check-in{
+    font-size: 0.75rem;
+}
+
+#datas2{
+    margin-top: 10px;
+    padding: 0.5rem;
+    width: 50%;
+    border-left: 1px solid rgb(128, 128, 128, 0.4);
+    border-right: 1px solid rgb(128, 128, 128, 0.4);
+    border-top: 1px solid rgb(128, 128, 128, 0.4);
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    border-top-right-radius: 8px 8px;
+}
+
+#check-in{
+    font-size: 0.75rem;
+}
+
+#datas3{
+    padding: 0.5rem;
+    width: 100%;
+    border-left: 1px solid rgb(128, 128, 128, 0.4);
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    border-right: 1px solid rgb(128, 128, 128, 0.4);
+    border-bottom-left-radius: 8px 8px;
+    border-bottom-right-radius: 8px 8px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#hospede1{
+    display: flex;
+}
+
+#check-in{
+    font-size: 0.75rem;
+}
+
+#reservar{
+    margin-top: 10px;
+    width: 100%;
+} 
+
+#reservar button{
+    cursor: pointer;
+    width: 100%;
+    padding: 15px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+    color: white;
+    background-color: #F1265F;
+    border-radius: 8px;
+}

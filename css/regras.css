@@ -1,0 +1,31 @@
+ .regras{
+    padding: 1rem 5rem;
+}
+.regras1 {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 1rem;
+  }
+  
+.coluna{
+    flex: 1;
+    text-align: start;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5px;
+  }
+
+.coluna h4, p{
+    margin: 10px;
+}
+
+
+.mostrar1{
+    align-items: center;
+    display: inline-flex;
+}
+
+#mostrar_mais{
+    flex: 1;
+}

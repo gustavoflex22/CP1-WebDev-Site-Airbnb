@@ -1,0 +1,33 @@
+.icones2{
+    display: flex;
+    flex-wrap: wrap;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    padding-bottom: 1.5rem;
+}
+
+.icones-titulo{
+    max-width: 100%;
+    width: 100%;
+    margin-top: 1.5rem;
+
+}
+
+.icones-descricao{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icone1{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+#linha{
+    text-decoration: line-through;
+}

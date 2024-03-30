@@ -1,0 +1,76 @@
+.clear-fix {
+    clear: both;
+  }
+
+.avaliacoes{
+    padding: 1rem 5rem;
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.pontuacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.pontuacao img{
+    width: 20%;
+}
+.pontuacao p{
+    align-items: center;
+    font-size: 6rem;
+    font-weight: 500;
+}
+#negrito{
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+.preferido{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    padding-bottom: 1.5rem;
+}
+.preferido p{
+    width: 30%;
+}
+
+.pessoas{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5rem;
+    max-width: 100%;
+
+}
+
+.anfitriao h3, p{
+    width: 80%;
+}
+
+
+.pessoas_avaliacoes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-bottom: 1px solid rgb(128, 128, 128, 0.4);
+    padding-bottom: 1.5rem;
+    
+}
+
+.pessoas_avaliacoes img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border-radius: 50%; 
+}
