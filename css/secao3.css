@@ -12,3 +12,28 @@
     object-fit: cover;
     border-radius: 50%; 
 }
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .review {
+    text-align: center;
+  }
+  
+  .stars {
+    font-size: 30px;
+  }
+  
+  .star {
+    cursor: pointer;
+  }
+  
+  .star:hover,
+  .star:hover ~ .star {
+    color: orange;
+  }
